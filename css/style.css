@@ -20,6 +20,7 @@ body {
   background: #fff;
 }
 
+
 #page {
   position: relative;
   overflow-x: hidden;
@@ -357,8 +358,9 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-counter,
 #fh5co-event {
-  height: 850px;
-  float: left;
+  /* height: 850px; */
+  /* float: left; */
+  
 }
 #fh5co-counter .display-t,
 #fh5co-counter .display-tc,
@@ -446,9 +448,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-counter .event-wrap .event-col,
 #fh5co-event .event-wrap .event-col {
-  width: 50%;
-  float: left;
-  margin-bottom: 30px;
+  /* width: 50%; */
+  /* float: left; */
+  /* margin-bottom: 30px; */
 }
 
 #fh5co-counter {
@@ -972,7 +974,7 @@ form label {
   #fh5co-couple,
   #fh5co-gallery,
   .fh5co-section {
-    padding: 3em 0;
+    /* padding: 3em 0; */
   }
 }
 
