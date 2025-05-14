@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>You're Invited! 💍</title>
+  <title>Wane ❤️ Zulfadhli  - 28.06.2025! 💍</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
 	<!-- FlipDown CSS -->
@@ -50,11 +50,50 @@
 
   	<!-- Load Google Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
 	<style>
-	.font-dancing {
-		font-family: 'Dancing Script', cursive;
-	}
+		.font-dancing {
+			font-family: 'Dancing Script', cursive;
+		}
+
+		@keyframes gold-gloss {
+		0% {
+			background-position: 0% 0;
+		}
+		50% {
+			background-position: 100% 0;
+		}
+		100% {
+			background-position: 0% 0;
+		}
+		}
+
+		.real-gold-border {
+		position: relative;
+		border: 4px solid transparent;
+		background:
+			linear-gradient(white, white) padding-box,
+			linear-gradient(
+			120deg,
+			#8d6e63,
+			#ffd700,
+			#fff8dc,
+			#b8860b,
+			#fff8dc,
+			#ffd700,
+			#8d6e63
+			) border-box;
+			
+		background-size: 300% 100%;
+		background-repeat: no-repeat;
+		animation: gold-gloss 8s ease-in-out infinite;
+		border-radius: 1.5rem;
+		z-index: 1;
+		}
+
+
 	</style>
+		
 	  
 	  <script>
 		document.addEventListener('DOMContentLoaded', () => {
@@ -68,53 +107,56 @@
 			});
 		});
 	  </script>
-	  
 
-<section id="home" class="relative min-h-screen text-center font-[Poppins]">
-  <header class="min-h-screen bg-cover bg-center flex items-center justify-center" style="background-image: url('images/bg.jpg')">
+	<section id="home" class="relative min-h-screen text-center font-[Poppins]">
+	<header class="min-h-screen bg-cover bg-center flex items-center justify-center" style="background-image: url('images/bg2.jpg'); background-size: cover; background-position: top center; background-attachment: fixed;">
 
-    <!-- Overlay to darken image -->
-    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+		<!-- Overlay to darken image -->
+		<!-- Wedding Card with animated gold border -->
+		<div class="relative z-10 max-w-3xl p-1 m-6 real-gold-border animate-fade-up animate-duration-[1500ms] transition-all duration-700 ease-in-out rounded-3xl">
 
-    <!-- Wedding Card -->
-    <div class="relative z-10 max-w-3xl bg-white/90 text-gray-800 rounded-3xl shadow-2xl p-10 m-6 backdrop-blur-sm animate-fade-up animate-duration-[1500ms] transition-all duration-700 ease-in-out">
-      
-      <!-- Arabic Title -->
-      <h1 class="text-5xl text-black-500 mb-6 font-[Great_Vibes] tracking-wide animate-fade-down">
-        وَليمةُ العُرُوسِ
-      </h1>
-      
-      <!-- Invitation Text -->
-      <p class="text-base md:text-lg leading-relaxed mb-6 animate-fade-up animate-delay-[300ms]">
-        Assalamualaikum W. B. T.<br>
-        <strong class="text-black-600">ABDUL FADIL BIN MOAIN</strong> & 
-        <strong class="text-black-600">NURAZURAH BINTI KLIWON</strong><br>
-        Dengan penuh rasa kesyukuran, kami menjemput<br>
-        <em>Dato'/ Datin/ Tuan/ Puan/ Encik/ Cik</em><br>
-        ke majlis perkahwinan anakanda kami
-      </p>
+			<div class="bg-white/90 text-gray-800 rounded-[calc(1.5rem-1px)] shadow-2xl p-10 backdrop-blur-sm">
+			
+			<!-- Arabic Title -->
+			<h1 class="text-5xl text-black-500 mb-6 font-[Great_Vibes] tracking-wide animate-fade-down">
+				وَليمةُ العُرُوسِ
+			</h1>
+			
+			<!-- Invitation Text -->
+			<p class="text-base md:text-lg leading-relaxed mb-6 animate-fade-up animate-delay-[300ms]">
+				Assalamualaikum W. B. T.<br>
+				<strong class="text-black-600">ABDUL FADIL BIN MOAIN</strong> & 
+				<strong class="text-black-600">NURAZURAH BINTI KLIWON</strong><br>
+				Dengan penuh rasa kesyukuran, kami menjemput<br>
+				<em>Dato'/ Datin/ Tuan/ Puan/ Encik/ Cik</em><br>
+				ke majlis perkahwinan anakanda kami
+			</p>
+		
+			<!-- Couple's Names -->
+			<h2 class="text-5xl md:text-6xl text-slate-700 font-dancing mb-4 animate-fade-up animate-delay-[600ms]">
+				Wane & Zulfadhli
+			</h2>
+		
+			<!-- Countdown -->
+			<div class="relative z-10 mt-12 flex justify-center">
+				<div id="flipdown" class="flipdown"></div>
+			</div>
+		
+			</div>
+		</div>
+		
 
-      <!-- Couple's Names -->
-	  <h2 class="text-5xl md:text-6xl text-slate-700 font-dancing mb-4 animate-fade-up animate-delay-[600ms]">
-		Wane & Zulfadhli
-	  </h2>
+		</header>
+	</section>
 
-      <!-- Countdown Clock -->
-      <!-- FlipDown Timer -->
-	<div class="relative z-10 mt-12 flex justify-center">
-		<div id="flipdown" class="flipdown"></div>
-	</div>
-  
-    </div>
-
-  </header>
-</section>
-
-<!-- Majlis -->
-	<section id="majlis" class="px-4 py-8 bg-gradient-to-b from-gray-100 via-gray-200 to-white animate-fade-up" style="background-image: url('images/bg.jpg'); background-size: cover; background-position: center center; background-attachment: fixed;">
+	<!-- Majlis -->
+	<section id="majlis" class="px-4 py-8 bg-gradient-to-b from-gray-100 via-gray-200 to-white animate-fade-up" style="background-image: url('images/bg2.jpg'); background-size: cover; background-position: center center; background-attachment: fixed;">
 		<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
 		<!-- Event Card 1 -->
-		<div class="bg-white shadow-lg rounded-xl p-6 hover:transform hover:scale-105 transition-all duration-300">
+		<!-- <div class="bg-white shadow-lg rounded-xl p-6 hover:transform hover:scale-105 transition-all duration-300"> -->
+		<div class="real-gold-border shadow-lg rounded-xl p-[5px] hover:transform hover:scale-105 transition-all duration-300">
+			<div class="bg-white rounded-[calc(1rem-4px)] p-6">
+
 			<h3 class="text-2xl font-semibold text-gray-800 text-center mb-4">Majlis Pernikahan Fadhli & Wane</h3>
 	
 			<!-- Waze & Google Maps Buttons -->
@@ -149,32 +191,36 @@
 			46-A, BLOK 3, FELDA BUKIT APING TIMUR,<br>
 			81900 KOTA TINGGI, JOHOR
 			</div>
+			</div>	
 		</div>
 		</div>
 	</section>
   
-  <!-- RSVP -->
-  <section id="rsvp" class="px-6 py-8 bg-gradient-to-b from-gray-100 via-gray-200 to-white animate-fade-up" style="background-image: url('images/bg.jpg'); background-size: cover; background-position: center center; background-attachment: fixed;">
-	<div class="bg-white rounded-3xl shadow-xl p-6 text-center">
-	  <div class="container mx-auto text-center">
-		<h2 class="text-3xl font-semibold mb-4 text-green-600">📅 RSVP</h2>
-		<p class="text-lg text-gray-700 mb-6">Sila isi maklumat kehadiran anda di bawah:</p>
-		
-		<div class="iframe-container">
-		  <iframe 
-			src="https://docs.google.com/forms/d/e/1FAIpQLSfqs29_KBlG8sN03ho-FlTxf0yVkRjtcBbumKs4WJCrBIobeA/viewform?embedded=true" 
-			width="100%" 
-			height="500" 
-			frameborder="0" 
-			marginheight="0" 
-			marginwidth="0">
-			Loading…
-		  </iframe>
+	<!-- RSVP -->
+	<section id="rsvp" class="px-6 py-8 bg-gradient-to-b from-gray-100 via-gray-200 to-white animate-fade-up" style="background-image: url('images/bg2.jpg'); background-size: cover; background-position: center center; background-attachment: fixed;">
+		<div class="real-gold-border shadow-xl p-[5px] text-center">
+			<div class="bg-white rounded-[calc(1.5rem-4px)] p-6">
+				
+			<div class="container mx-auto text-center">
+				<h2 class="text-3xl font-semibold mb-4 text-green-600">📅 RSVP</h2>
+				<p class="text-lg text-gray-700 mb-6">Sila isi maklumat kehadiran anda di bawah:</p>
+				
+				<div class="iframe-container">
+				<iframe 
+					src="https://docs.google.com/forms/d/e/1FAIpQLSfqs29_KBlG8sN03ho-FlTxf0yVkRjtcBbumKs4WJCrBIobeA/viewform?embedded=true" 
+					width="100%" 
+					height="500" 
+					frameborder="0" 
+					marginheight="0" 
+					marginwidth="0">
+					Loading…
+				</iframe>
+				</div>
+			</div>
 		</div>
-	  </div>
-	</div>
-  </section>
-  
+		</div>
+	</section>
+	
 
 	<!-- Gift -->
 	<style>
@@ -225,105 +271,110 @@
 	}
 	</style>
 
-	<section id="gift" class="px-6 py-8 bg-gradient-to-b from-gray-100 via-gray-200 to-white animate-fade-up" style="background-image: url('images/bg.jpg'); background-size: cover; background-position: center center; background-attachment: fixed;">
-	<div class="bg-white rounded-3xl shadow-xl p-6 text-center">
-		<section id="gift">
-			<div class="container text-center">
-			<h3>Senarai Hadiah (Gift)</h3>
-			<div class="owl-carousel owl-theme">
-		
-				<!-- Item 1 -->
-				<div class="item">
-				<div class="card">
-					<a href="https://shopee.com.my/Combo-Set-Pinggan-Mangkuk-Giacomo-Set-Plate-Dinnerware-Dinner-Set-Kaca-Porcelain-Hadiah-Kahwin-Ready-Stok-i.32325017.13613622460" target="_blank" rel="noopener noreferrer">
-					<img src="https://down-my.img.susercontent.com/file/my-11134207-7qul0-lh2ac4xfa2zx24.webp" alt="Combo Set Pinggan Mangkuk Giacomo" style="max-height:200px;">
-					<h4>Combo Set Pinggan Mangkuk Giacomo</h4>
-					</a>
-					<button class="btn btn-primary" onclick="window.open('https://shopee.com.my/Combo-Set-Pinggan-Mangkuk-Giacomo-Set-Plate-Dinnerware-Dinner-Set-Kaca-Porcelain-Hadiah-Kahwin-Ready-Stok-i.32325017.13613622460','_blank')">Beli di Shopee</button>
+	<section id="gift" class="px-6 py-8 bg-gradient-to-b from-gray-100 via-gray-200 to-white animate-fade-up" style="background-image: url('images/bg2.jpg'); background-size: cover; background-position: center center; background-attachment: fixed;">
+	<!-- <div class="bg-white rounded-3xl shadow-xl p-6 text-center"> -->
+		<div class="real-gold-border shadow-xl p-[5px] text-center">
+			<div class="bg-white rounded-[calc(1.5rem-4px)] p-6">
+		   
+	
+				<div class="container text-center">
+				<h3>Senarai Hadiah (Gift)</h3>
+				<div class="owl-carousel owl-theme">
+			
+					<!-- Item 1 -->
+					<div class="item">
+					<div class="card">
+						<a href="https://shopee.com.my/Combo-Set-Pinggan-Mangkuk-Giacomo-Set-Plate-Dinnerware-Dinner-Set-Kaca-Porcelain-Hadiah-Kahwin-Ready-Stok-i.32325017.13613622460" target="_blank" rel="noopener noreferrer">
+						<img src="https://down-my.img.susercontent.com/file/my-11134207-7qul0-lh2ac4xfa2zx24.webp" alt="Combo Set Pinggan Mangkuk Giacomo" style="max-height:200px;">
+						<h4>Combo Set Pinggan Mangkuk Giacomo</h4>
+						</a>
+						<button class="btn btn-primary" onclick="window.open('https://shopee.com.my/Combo-Set-Pinggan-Mangkuk-Giacomo-Set-Plate-Dinnerware-Dinner-Set-Kaca-Porcelain-Hadiah-Kahwin-Ready-Stok-i.32325017.13613622460','_blank')">Beli di Shopee</button>
+					</div>
+					</div>
+			
+					<!-- Item 2 -->
+					<div class="item">
+					<div class="card">
+						<a href="https://shopee.com.my/12pcs-Dinnerware-Set-Dinner-Serve-Set-Set-Pinggan-Mangkuk-Corelle-Tableware-i.215599168.24372576628" target="_blank" rel="noopener noreferrer">
+						<img src="https://down-my.img.susercontent.com/file/sg-11134201-7rblk-ln19358r5eka53.webp" alt="12pcs Dinnerware Set Corelle" style="max-height:200px;">
+						<h4>12pcs Dinnerware Set Corelle</h4>
+						</a>
+						<button class="btn btn-primary" onclick="window.open('https://shopee.com.my/12pcs-Dinnerware-Set-Dinner-Serve-Set-Set-Pinggan-Mangkuk-Corelle-Tableware-i.215599168.24372576628','_blank')">Beli di Shopee</button>
+					</div>
+					</div>
+			
+					<!-- Item 3 -->
+					<div class="item">
+					<div class="card">
+						<a href="https://shopee.com.my/Kadonio-Blender-Food-Processor-Meat-Grinder-2L-Electric-Chopper-Blander-%E7%BB%9E%E8%82%89%E6%9C%BA-FB05-i.837888067.18437456082" target="_blank" rel="noopener noreferrer">
+						<img src="https://down-my.img.susercontent.com/file/cn-11134207-7ras8-m4o1qd1helfb3e.webp" alt="Blender" style="max-height:200px;">
+						<h4>Blender</h4>
+						</a>
+						<button class="btn btn-primary" onclick="window.open('https://shopee.com.my/Kadonio-Blender-Food-Processor-Meat-Grinder-2L-Electric-Chopper-Blander-%E7%BB%9E%E8%82%89%E6%9C%BA-FB05-i.837888067.18437456082','_blank')">Beli di Shopee</button>
+					</div>
+					</div>
+			
+					<!-- Item 4 -->
+					<div class="item">
+					<div class="card">
+						<a href="https://my.shp.ee/VQvLxpo" target="_blank" rel="noopener noreferrer">
+						<img src="https://down-my.img.susercontent.com/file/sg-11134201-22120-8bqtouzurqkvac.webp" alt="Pressure Cooker" style="max-height:200px;">
+						<h4>Pressure Cooker</h4>
+						</a>
+						<button class="btn btn-primary" onclick="window.open('https://my.shp.ee/VQvLxpo','_blank')">Beli di Shopee</button>
+					</div>
+					</div>
+			
+					<!-- Item 5 -->
+					<div class="item">
+					<div class="card">
+						<a href="https://my.shp.ee/QPLESow" target="_blank" rel="noopener noreferrer">
+						<img src="https://down-my.img.susercontent.com/file/my-11134207-7rasa-m9grevwc6ccgd6.webp" alt="Penyedut Asap Dapur" style="max-height:200px;">
+						<h4>Penyedut Asap Dapur</h4>
+						</a>
+						<button class="btn btn-primary" onclick="window.open('https://my.shp.ee/QPLESow','_blank')">Beli di Shopee</button>
+					</div>
+					</div>
+			
+					<!-- Item 6 -->
+					<div class="item">
+					<div class="card">
+						<a href="https://shopee.com.my/KATA-Non-stick-Wok-316-Stainless-Steel-Kuali-Honey-Comb-Double-Full-Screen-Pan-No-Coating-Wok-i.229666794.4118378918" target="_blank" rel="noopener noreferrer">
+						<img src="https://down-my.img.susercontent.com/file/my-11134207-23030-gxqieg5djlovbd.webp" alt="Set Alat Memasak Non-Stick" style="max-height:200px;">
+						<h4>Set Alat Memasak Non-Stick</h4>
+						</a>
+						<button class="btn btn-primary" onclick="window.open('https://shopee.com.my/KATA-Non-stick-Wok-316-Stainless-Steel-Kuali-Honey-Comb-Double-Full-Screen-Pan-No-Coating-Wok-i.229666794.4118378918','_blank')">Beli di Shopee</button>
+					</div>
+					</div>
+			
+					<!-- Item 7 -->
+					<div class="item">
+					<div class="card">
+						<a href="https://shopee.com.my/TJean-High-Speed-Hair-Dryer-Low-Noise-Pengering-Rambut-Mini-Blower-Straightener-Hair-200Million-Negative-Ion-35m-s-Airspeed-110000RPM-%E5%90%B9%E9%A2%A8%E7%AD%92-i.666152415.25957735967" target="_blank" rel="noopener noreferrer">
+						<img src="https://down-my.img.susercontent.com/file/cn-11134207-7ras8-m9h4spo0nzea59.webp" alt="Hair Dryer Portable" style="max-height:200px;">
+						<h4>Hair Dryer Portable</h4>
+						</a>
+						<button class="btn btn-primary" onclick="window.open('https://shopee.com.my/TJean-High-Speed-Hair-Dryer-Low-Noise-Pengering-Rambut-Mini-Blower-Straightener-Hair-200Million-Negative-Ion-35m-s-Airspeed-110000RPM-%E5%90%B9%E9%A2%A8%E7%AD%92-i.666152415.25957735967','_blank')">Beli di Shopee</button>
+					</div>
+					</div>
+			
+					<!-- Item 8 -->
+					<div class="item">
+					<div class="card">
+						<a href="https://shopee.com.my/GIANXI-Glass-Tea-Pot-Set-jug-dan-gelas-cawan-dan-teko-air-panas-%E8%8C%B6%E6%9D%AF%E8%8C%B6%E5%A3%B6%E8%8C%B6%E5%85%B7%E5%A5%97%E8%A3%85-i.1019960993.23059550150" target="_blank" rel="noopener noreferrer">
+						<img src="https://down-my.img.susercontent.com/file/cn-11134207-7r98o-lqmqxgy39yd12e.webp" alt="Set Cawan Teh Ceramic" style="max-height:200px;">
+						<h4>Set Cawan Teh Ceramic</h4>
+						</a>
+						<button class="btn btn-primary" onclick="window.open('https://shopee.com.my/GIANXI-Glass-Tea-Pot-Set-jug-dan-gelas-cawan-dan-teko-air-panas-%E8%8C%B6%E6%9D%AF%E8%8C%B6%E5%A3%B6%E8%8C%B6%E5%85%B7%E5%A5%97%E8%A3%85-i.1019960993.23059550150','_blank')">Beli di Shopee</button>
+					</div>
+					</div>
+			
+					<!-- Tambahkan item lain di sini jika ada -->
+			
 				</div>
 				</div>
-		
-				<!-- Item 2 -->
-				<div class="item">
-				<div class="card">
-					<a href="https://shopee.com.my/12pcs-Dinnerware-Set-Dinner-Serve-Set-Set-Pinggan-Mangkuk-Corelle-Tableware-i.215599168.24372576628" target="_blank" rel="noopener noreferrer">
-					<img src="https://down-my.img.susercontent.com/file/sg-11134201-7rblk-ln19358r5eka53.webp" alt="12pcs Dinnerware Set Corelle" style="max-height:200px;">
-					<h4>12pcs Dinnerware Set Corelle</h4>
-					</a>
-					<button class="btn btn-primary" onclick="window.open('https://shopee.com.my/12pcs-Dinnerware-Set-Dinner-Serve-Set-Set-Pinggan-Mangkuk-Corelle-Tableware-i.215599168.24372576628','_blank')">Beli di Shopee</button>
-				</div>
-				</div>
-		
-				<!-- Item 3 -->
-				<div class="item">
-				<div class="card">
-					<a href="https://shopee.com.my/Kadonio-Blender-Food-Processor-Meat-Grinder-2L-Electric-Chopper-Blander-%E7%BB%9E%E8%82%89%E6%9C%BA-FB05-i.837888067.18437456082" target="_blank" rel="noopener noreferrer">
-					<img src="https://down-my.img.susercontent.com/file/cn-11134207-7ras8-m4o1qd1helfb3e.webp" alt="Blender" style="max-height:200px;">
-					<h4>Blender</h4>
-					</a>
-					<button class="btn btn-primary" onclick="window.open('https://shopee.com.my/Kadonio-Blender-Food-Processor-Meat-Grinder-2L-Electric-Chopper-Blander-%E7%BB%9E%E8%82%89%E6%9C%BA-FB05-i.837888067.18437456082','_blank')">Beli di Shopee</button>
-				</div>
-				</div>
-		
-				<!-- Item 4 -->
-				<div class="item">
-				<div class="card">
-					<a href="https://my.shp.ee/VQvLxpo" target="_blank" rel="noopener noreferrer">
-					<img src="https://down-my.img.susercontent.com/file/sg-11134201-22120-8bqtouzurqkvac.webp" alt="Pressure Cooker" style="max-height:200px;">
-					<h4>Pressure Cooker</h4>
-					</a>
-					<button class="btn btn-primary" onclick="window.open('https://my.shp.ee/VQvLxpo','_blank')">Beli di Shopee</button>
-				</div>
-				</div>
-		
-				<!-- Item 5 -->
-				<div class="item">
-				<div class="card">
-					<a href="https://my.shp.ee/QPLESow" target="_blank" rel="noopener noreferrer">
-					<img src="https://down-my.img.susercontent.com/file/my-11134207-7rasa-m9grevwc6ccgd6.webp" alt="Penyedut Asap Dapur" style="max-height:200px;">
-					<h4>Penyedut Asap Dapur</h4>
-					</a>
-					<button class="btn btn-primary" onclick="window.open('https://my.shp.ee/QPLESow','_blank')">Beli di Shopee</button>
-				</div>
-				</div>
-		
-				<!-- Item 6 -->
-				<div class="item">
-				<div class="card">
-					<a href="https://shopee.com.my/KATA-Non-stick-Wok-316-Stainless-Steel-Kuali-Honey-Comb-Double-Full-Screen-Pan-No-Coating-Wok-i.229666794.4118378918" target="_blank" rel="noopener noreferrer">
-					<img src="https://down-my.img.susercontent.com/file/my-11134207-23030-gxqieg5djlovbd.webp" alt="Set Alat Memasak Non-Stick" style="max-height:200px;">
-					<h4>Set Alat Memasak Non-Stick</h4>
-					</a>
-					<button class="btn btn-primary" onclick="window.open('https://shopee.com.my/KATA-Non-stick-Wok-316-Stainless-Steel-Kuali-Honey-Comb-Double-Full-Screen-Pan-No-Coating-Wok-i.229666794.4118378918','_blank')">Beli di Shopee</button>
-				</div>
-				</div>
-		
-				<!-- Item 7 -->
-				<div class="item">
-				<div class="card">
-					<a href="https://shopee.com.my/TJean-High-Speed-Hair-Dryer-Low-Noise-Pengering-Rambut-Mini-Blower-Straightener-Hair-200Million-Negative-Ion-35m-s-Airspeed-110000RPM-%E5%90%B9%E9%A2%A8%E7%AD%92-i.666152415.25957735967" target="_blank" rel="noopener noreferrer">
-					<img src="https://down-my.img.susercontent.com/file/cn-11134207-7ras8-m9h4spo0nzea59.webp" alt="Hair Dryer Portable" style="max-height:200px;">
-					<h4>Hair Dryer Portable</h4>
-					</a>
-					<button class="btn btn-primary" onclick="window.open('https://shopee.com.my/TJean-High-Speed-Hair-Dryer-Low-Noise-Pengering-Rambut-Mini-Blower-Straightener-Hair-200Million-Negative-Ion-35m-s-Airspeed-110000RPM-%E5%90%B9%E9%A2%A8%E7%AD%92-i.666152415.25957735967','_blank')">Beli di Shopee</button>
-				</div>
-				</div>
-		
-				<!-- Item 8 -->
-				<div class="item">
-				<div class="card">
-					<a href="https://shopee.com.my/GIANXI-Glass-Tea-Pot-Set-jug-dan-gelas-cawan-dan-teko-air-panas-%E8%8C%B6%E6%9D%AF%E8%8C%B6%E5%A3%B6%E8%8C%B6%E5%85%B7%E5%A5%97%E8%A3%85-i.1019960993.23059550150" target="_blank" rel="noopener noreferrer">
-					<img src="https://down-my.img.susercontent.com/file/cn-11134207-7r98o-lqmqxgy39yd12e.webp" alt="Set Cawan Teh Ceramic" style="max-height:200px;">
-					<h4>Set Cawan Teh Ceramic</h4>
-					</a>
-					<button class="btn btn-primary" onclick="window.open('https://shopee.com.my/GIANXI-Glass-Tea-Pot-Set-jug-dan-gelas-cawan-dan-teko-air-panas-%E8%8C%B6%E6%9D%AF%E8%8C%B6%E5%A3%B6%E8%8C%B6%E5%85%B7%E5%A5%97%E8%A3%85-i.1019960993.23059550150','_blank')">Beli di Shopee</button>
-				</div>
-				</div>
-		
-				<!-- Tambahkan item lain di sini jika ada -->
-		
 			</div>
-			</div>
+			
 		</section>
 
 		<!-- Sertakan jQuery dan Owl Carousel JS & CSS -->
@@ -388,24 +439,29 @@
   
 
   <!-- Floating Flyout Menu -->
-  <div class="fixed bottom-4 left-1/2 -translate-x-1/2 w-11/12 max-w-md mx-auto bg-white shadow-lg rounded-full px-4 py-2 flex justify-around items-center text-sm sm:text-base z-50">
-    <a href="#home" class="flex flex-col items-center text-pink-500 hover:text-pink-600 transition">
-      <span>🏠</span>
-      <span>Home</span>
-    </a>
-    <a href="#majlis" class="flex flex-col items-center text-yellow-500 hover:text-yellow-600 transition">
-      <span>📍</span>
-      <span>Majlis</span>
-    </a>
-    <a href="#rsvp" class="flex flex-col items-center text-green-500 hover:text-green-600 transition">
-      <span>📅</span>
-      <span>RSVP</span>
-    </a>
-    <a href="#gift" class="flex flex-col items-center text-purple-500 hover:text-purple-600 transition">
-      <span>🎁</span>
-      <span>Gift</span>
-    </a>
+  <div class="fixed bottom-4 left-1/2 -translate-x-1/2 w-11/12 max-w-md mx-auto bg-white border-2 border-gray-400 shadow-lg rounded-md px-4 py-3 flex justify-around items-center text-sm z-50" >
+	<a href="#home" class="flex flex-col items-center text-gray-600 hover:text-gray-800 transition duration-300">
+	  <span class="text-xl">🏠</span>
+	  <span class="font-semibold">Home</span>
+	</a>
+	<a href="#majlis" class="flex flex-col items-center text-gray-600 hover:text-gray-800 transition duration-300">
+	  <span class="text-xl">📍</span>
+	  <span class="font-semibold">Majlis</span>
+	</a>
+	<a href="#rsvp" class="flex flex-col items-center text-gray-600 hover:text-gray-800 transition duration-300">
+	  <span class="text-xl">📅</span>
+	  <span class="font-semibold">RSVP</span>
+	</a>
+	<a href="#gift" class="flex flex-col items-center text-gray-600 hover:text-gray-800 transition duration-300">
+	  <span class="text-xl">🎁</span>
+	  <span class="font-semibold">Gift</span>
+	</a>
   </div>
+  
+  
+  
+  
+  
 
 </body>
 </html>
