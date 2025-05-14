@@ -27,8 +27,9 @@
     }
   </style>
 </head>
-<body class="bg-fixed bg-center bg-cover min-h-screen pb-24 text-gray-800" style="background-image: url('images/bg2.jpg');">
-
+<body class="relative min-h-screen bg-fixed bg-cover bg-center text-gray-800" style="background-image: url('images/bg2.jpg');">
+  <div class="absolute inset-0 bg-black/30 z-0"></div> <!-- optional dark overlay -->
+	<main class="relative z-10">
 	<!-- Background Music -->
 	<audio id="bg-music" autoplay loop>
 		<source src="images/wane.mp3" type="audio/mpeg">
@@ -459,7 +460,8 @@
 	  <span class="font-semibold">Gift</span>
 	</a>
   </div>
-  
+
+</main>
   
   
   
